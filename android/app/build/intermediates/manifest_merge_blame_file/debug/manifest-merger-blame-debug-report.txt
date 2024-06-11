@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ibrahimapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\RN\IbrahimApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\RN\IbrahimApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\ibrah\.gradle\caches\transforms-3\7791fe77b8ab9730d0e25ce55c6aa090\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\ibrah\.gradle\caches\transforms-3\7791fe77b8ab9730d0e25ce55c6aa090\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:5:5-24:19
+16        android:name="com.ibrahimapp.MainApplication"
+16-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:6:7-38
+17        android:allowBackup="false"
+17-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:10:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.8.0] C:\Users\ibrah\.gradle\caches\transforms-3\4147f26a61fb6196770ea38e58daddf3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:8:7-41
+21        android:label="@string/app_name"
+21-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:7:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:9:7-52
+23        android:theme="@style/AppTheme"
+23-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:11:7-38
+24        android:usesCleartextTraffic="true" >
+24-->C:\RN\IbrahimApp\android\app\src\debug\AndroidManifest.xml:8:9-44
+25        <activity
+25-->C:\RN\IbrahimApp\android\app\src\debug\AndroidManifest.xml:11:9-111
+26            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+26-->C:\RN\IbrahimApp\android\app\src\debug\AndroidManifest.xml:11:19-83
+27            android:exported="false" />
+27-->C:\RN\IbrahimApp\android\app\src\debug\AndroidManifest.xml:11:84-108
+28        <activity
+28-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:12:7-23:18
+29            android:name="com.ibrahimapp.MainActivity"
+29-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:13:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+30-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:15:9-118
+31            android:exported="true"
+31-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:18:9-32
+32            android:label="@string/app_name"
+32-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:14:9-41
+33            android:launchMode="singleTask"
+33-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:16:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:17:9-51
+35            <intent-filter>
+35-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:20:13-65
+36-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:21:13-73
+38-->C:\RN\IbrahimApp\android\app\src\main\AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+43            android:name="com.imagepicker.ImagePickerProvider"
+43-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+44            android:authorities="com.ibrahimapp.imagepickerprovider"
+44-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+45            android:exported="false"
+45-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+46            android:grantUriPermissions="true" >
+46-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+47            <meta-data
+47-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+49                android:resource="@xml/imagepicker_provider_paths" />
+49-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+50        </provider>
+51        <provider
+51-->[:react-native-share] C:\RN\IbrahimApp\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+52            android:name="cl.json.RNShareFileProvider"
+52-->[:react-native-share] C:\RN\IbrahimApp\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-55
+53            android:authorities="com.ibrahimapp.rnshare.fileprovider"
+53-->[:react-native-share] C:\RN\IbrahimApp\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-72
+54            android:exported="false"
+54-->[:react-native-share] C:\RN\IbrahimApp\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+55            android:grantUriPermissions="true" >
+55-->[:react-native-share] C:\RN\IbrahimApp\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+56            <meta-data
+56-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+58                android:resource="@xml/share_download_paths" />
+58-->[:react-native-image-picker] C:\RN\IbrahimApp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+59        </provider>
+60
+61        <meta-data
+61-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ibrah\.gradle\caches\transforms-3\06e68ce31cc2ab4404357ee28381dd8e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+62            android:name="com.facebook.soloader.enabled"
+62-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ibrah\.gradle\caches\transforms-3\06e68ce31cc2ab4404357ee28381dd8e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+63            android:value="false" />
+63-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ibrah\.gradle\caches\transforms-3\06e68ce31cc2ab4404357ee28381dd8e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\b83e17027077728320a69840354fdfe3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\b83e17027077728320a69840354fdfe3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\b83e17027077728320a69840354fdfe3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\b83e17027077728320a69840354fdfe3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\d907f746f04f215d6be91c8609ed7a91\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\d907f746f04f215d6be91c8609ed7a91\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ibrah\.gradle\caches\transforms-3\d907f746f04f215d6be91c8609ed7a91\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+76            android:authorities="com.ibrahimapp.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ibrah\.gradle\caches\transforms-3\1465c8141f1cc97f21281a34d8e68734\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ibrah\.gradle\caches\transforms-3\ae27995e6287e7fd33ae4364afb490c1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ibrah\.gradle\caches\transforms-3\ae27995e6287e7fd33ae4364afb490c1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ibrah\.gradle\caches\transforms-3\ae27995e6287e7fd33ae4364afb490c1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

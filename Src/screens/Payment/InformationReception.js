@@ -7,7 +7,7 @@ import Images from '../../assets/Images';
 const PaymentSuccess = ({ navigation }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
-      navigation.navigate(ScreenNames.InformationCarWash);
+      navigation.navigate(ScreenNames.SelectBtn);
     }, 3000); // Navigate after 3 seconds
     return () => clearTimeout(timeout);
   }, [navigation]);
